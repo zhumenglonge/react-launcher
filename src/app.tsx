@@ -237,4 +237,7 @@ export default class Launcher {
     public use(plugin: PluginType, options: Record<string, any> = {}) {
         this.plugins.push({ plugin, options });
     }
+    public sayHi() {
+        console.log('hello world')
+    }
 }
